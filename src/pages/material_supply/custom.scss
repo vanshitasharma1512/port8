@@ -1,0 +1,132 @@
+.badge{
+    line-height: normal;
+}
+.tripModal .modal-dialog {
+    max-width: 70%;
+    border: 4px solid #000;
+    max-width: 1100px !important;
+}
+.blockLabel{
+     display: block;
+    p{
+        white-space: nowrap;
+    }
+    .form-control ,.form-select {
+       
+        width: 100%;
+        padding: 0.2rem 0.2rem !important
+    }
+}
+.tripModal.invoieModal{
+    .modal-dialog {
+        max-width: 850px !important;
+    }
+}
+.trips_list_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.tableWraper {
+    position: relative;
+    .loaderOverlay{
+        position: absolute;
+        background: rgba(255,255,255,.8);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.row.lesspadding > div {
+    padding: 0 5px !important;
+}
+.truckInformation{
+    padding:20px 0;
+    padding-top: 0;
+    color: #000;
+}
+.trackModal .modal-dialog {
+    border: 4px solid #000;
+    max-width: 1000px !important;
+}
+.head{
+    font-weight: bold !important;
+    color: #000 !important;font-size: 1rem;;
+}
+.tracking_activities{
+    max-height: 220px;
+    overflow: auto !important;
+ 
+    padding:10px;
+    ul{
+        list-style: none !important;
+        margin: 0;
+        padding: 0;
+        li{
+            font-size: .9rem;
+            padding: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            column-gap: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    }
+}
+.ratingUL{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    .mdi-star{
+        color: rgb(94, 255, 0)
+    }
+}
+.InvoiceWrap{
+    background-color:#fff;
+    padding: 2rem;
+    color: #000;
+    max-width: 900px;
+    margin: auto;
+    .InvoiceBox{
+        margin-bottom: 50px;
+        h5{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        h3{
+            font-size: 30px;
+        }
+        &.text-right{
+            text-align: right;
+        }
+        p{
+            font-size: 16px;
+            margin-bottom: 10px;
+            line-height: 16px;
+            b{
+                font-weight: bold;
+            }
+        }
+        .gstIN{
+            margin-top: 35px;
+        }
+    }
+    table{
+        border-color: #000;
+        border-width: 2px !important;
+        th{
+            background-color: #ddd !important;
+            color: #000;
+            padding: 10px;
+        }
+    }
+}
+.errMsg{
+    text-align: center;
+    font-size: 36px;
+    color: #000;
+}

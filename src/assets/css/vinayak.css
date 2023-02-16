@@ -1,0 +1,57 @@
+.bg-primary {
+    --ct-bg-opacity: 1;
+    background-color: #dc323a !important;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc323a !important;
+    border-color: #dc323a !important;
+}
+
+.widget-flat .card-body a {
+    color: #dc323a !important;
+    text-decoration: none;
+}
+
+.breadcrumb-item a {
+    color: #dc323a !important;
+    text-decoration: none;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: var(--ct-component-active-color);
+    background-color: #dc323a !important;
+    border-color: #dc323a !important;
+}
+
+body[data-leftbar-theme=dark] .leftside-menu {
+    background: #fff !important;
+}
+
+body[data-leftbar-theme=dark] .wrapper .leftside-menu .logo {
+    background: #fff !important;
+}
+
+body[data-leftbar-theme=dark] .simplebar-content .side-nav .menuitem-active>a {
+    color: #dc323a !important;
+}
+
+.bg-red {
+    background-color: #dc323a !important;
+}
+
+button.btnActive {
+    background-color: #fa5c7c !important;
+    border-color: #fa5c7c !important;
+}
+
+.active-tab {
+    background-color: #dc323a !important;
+    color: #fff !important;
+}
+
+.row{
+    --ct-gutter-x: 0px!important;
+}
